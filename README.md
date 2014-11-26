@@ -1,0 +1,1 @@
+[![Circle CI](https://circleci.com/gh/juno-media/youtrack-csv/tree/master.svg?style=svg)](https://circleci.com/gh/juno-media/youtrack-csv/tree/master)
