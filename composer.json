@@ -3,8 +3,8 @@
     "description": "CSV Import tool for YouTrack Issues",
     "require": {
         "ddeboer/data-import": "~0.16",
-        "guzzle/guzzle": "~3.9",
-        "silex/silex": "~1.2"
+        "samson/youtrack": "dev-master",
+        "symfony/console": "~2.7"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "~1.5",
