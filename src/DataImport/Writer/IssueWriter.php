@@ -46,7 +46,7 @@ class IssueWriter implements WriterInterface {
         $summary = $item["summary"];
         $description = $item["description"];
 
-        $jar = new FileCookieJar("/Users/joeshiels/Desktop/cookies.json");
+        $jar = new FileCookieJar("cookies.json");
 
         $client = new Client();
 
@@ -63,9 +63,9 @@ class IssueWriter implements WriterInterface {
         $response = $request->send();
 
         if ($response->getStatusCode() == 201) {
-            echo "Successfully created the issues.";
+            echo "Successfully created the issue [".$summary."].\n";
         }else {
-            echo "Something went wrong.";
+            echo "Something went wrong with [".$summary."]\n";
         }
 
     }

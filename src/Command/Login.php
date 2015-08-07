@@ -48,7 +48,7 @@ class Login extends Command
 
             echo "Successfully logged in.\n";
 
-            $jar = new FileCookieJar("/Users/joeshiels/Desktop/cookies.json");
+            $jar = new FileCookieJar("cookies.json");
 
             $jar->addCookiesFromResponse($response, $request);
 
